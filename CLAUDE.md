@@ -47,6 +47,6 @@ The look is meant to feel *measured*: text-led, cool, restrained, and phone-firs
 
 - **josh@joshuaprasad.com doesn't exist yet.** It needs the domain purchase plus Google Workspace. Until then the Consulting address on Contact bounces.
 - **Custom domain not attached.** Once Josh buys joshuaprasad.com: add a `CNAME` file containing `joshuaprasad.com`, set the DNS records at the registrar (four A records to GitHub Pages, plus `www` CNAME to `joshuaprasad.github.io`), then turn on "Enforce HTTPS" in the repo's Pages settings.
-- **Lander Wilkinson** has no headshot or research-interests sentence yet; her card shows initials.
+- **Lander Wilkinson** has a photo (added 2026-09-25) but no research-interests sentence yet.
 - **Kesea Nutter's** year in the program isn't stated. The old site's "first-year" line is stale, so it was left off.
 - **ORCID** links to 0000-0002-7938-6270, the Colorado State record found by public search. Josh should confirm it's his.
