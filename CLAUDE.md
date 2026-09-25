@@ -18,7 +18,7 @@ Josh Prasad's personal site: professor, lab, and consulting practice (Prasad & A
 
 **The header nav and footer are repeated in all five HTML files.** Any change to either has to be made in all five. Each page marks its own nav link with `aria-current="page"`.
 
-**Lab members.** Each person is an `<li class="person">` in `lab.html`: a photo (or a `<span class="initials">` when there's no photo), then name linked to LinkedIn, pronouns in `<span class="pron">`, and one short paragraph. To graduate someone, move their `<li>` to the Alumni list and drop the pronoun span to match the others. To add a photo, save it as `images/firstname.jpg` and swap the initials span for an `<img>`.
+**Lab members.** Each person is an `<li class="person">` in `lab.html`: a photo (or a `<span class="initials">` when there's no photo), then name linked to LinkedIn, pronouns in `<span class="pron">`, and one short paragraph. To graduate someone, move their `<li>` to the Alumni list, drop the pronoun span, and match the alumni format: a `<p class="title">` with their current role and employer, then one sentence on their dissertation. Alumni are listed in the order Josh gave them. To add a photo, save it as `images/firstname.jpg` and swap the initials span for an `<img>`.
 
 ## Rules for any copy change
 

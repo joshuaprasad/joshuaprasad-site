@@ -162,6 +162,7 @@ h3 { font-family: var(--sans); font-size: 1rem; font-weight: 600; margin: 0; }
 .person h3 a { color: var(--ink); text-decoration-color: var(--rule); }
 .person h3 .pron { font-weight: 400; color: var(--slate); }
 .person p { margin: 0.25rem 0 0; font-size: 1rem; }
+.person p.title { font-family: var(--sans); font-size: 0.9rem; color: var(--slate); margin-top: 0.15rem; }
 .alumni .person { grid-template-columns: 56px 1fr; }
 .alumni .person img { width: 56px; height: 56px; }
 
