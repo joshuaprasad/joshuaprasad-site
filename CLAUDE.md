@@ -10,7 +10,7 @@ Josh Prasad's personal site: professor, lab, and consulting practice (Prasad & A
 |---|---|---|
 | `index.html` | Home | Hook, the ownership rating scale, name and titles, two routes (Consulting, the Lab), Get in touch |
 | `about.html` | About | Five paragraphs of bio, first person |
-| `lab.html` | Research & the Lab | Lab description, Scholar/ORCID links, current members, alumni, Join |
+| `lab.html` | Research & the Lab | Lab description, Google Scholar link, current members, alumni, Join |
 | `consulting.html` | Consulting | Prasad & Associates: services, selection work, evidence paragraph, testimonials |
 | `contact.html` | Contact | Two email addresses split by purpose, profile links |
 | `style.css` | all | The one stylesheet. Colors are tokens at the top; change a token, never a rule |
@@ -19,6 +19,10 @@ Josh Prasad's personal site: professor, lab, and consulting practice (Prasad & A
 **The header nav and footer are repeated in all five HTML files.** Any change to either has to be made in all five. Each page marks its own nav link with `aria-current="page"`.
 
 **Lab members.** Each person is an `<li class="person">` in `lab.html`: a photo (or a `<span class="initials">` when there's no photo), then name linked to LinkedIn, pronouns in `<span class="pron">`, and one short paragraph. To graduate someone, move their `<li>` to the Alumni list, drop the pronoun span, and match the alumni format: a `<p class="title">` with their current role and employer, then one sentence on their dissertation. Alumni are listed in the order Josh gave them. To add a photo, save it as `images/firstname.jpg` and swap the initials span for an `<img>`.
+
+**Publications live on Google Scholar only.** No ORCID links anywhere (Josh, 2026-09-25); Scholar is the running log.
+
+**Photos are cache-busted** with `?v=N` on the `src`. When replacing an existing photo, bump its number so visitors' browsers fetch the new one.
 
 ## Rules for any copy change
 
@@ -48,5 +52,3 @@ The look is meant to feel *measured*: text-led, cool, restrained, and phone-firs
 - **josh@joshuaprasad.com doesn't exist yet.** It needs the domain purchase plus Google Workspace. Until then the Consulting address on Contact bounces.
 - **Custom domain not attached.** Once Josh buys joshuaprasad.com: add a `CNAME` file containing `joshuaprasad.com`, set the DNS records at the registrar (four A records to GitHub Pages, plus `www` CNAME to `joshuaprasad.github.io`), then turn on "Enforce HTTPS" in the repo's Pages settings.
 - **Lander Wilkinson** has a photo (added 2026-09-25) but no research-interests sentence yet.
-- **Kesea Nutter's** year in the program isn't stated. The old site's "first-year" line is stale, so it was left off.
-- **ORCID** links to 0000-0002-7938-6270, the Colorado State record found by public search. Josh should confirm it's his.
