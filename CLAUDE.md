@@ -1,6 +1,6 @@
 # joshuaprasad.com
 
-Josh Prasad's personal site: professor, lab, and consulting practice (Prasad & Associates) on one domain. Plain static HTML, hosted on GitHub Pages from `main`. No build step, no framework, no dashboard.
+Josh Prasad's personal site: professor, lab, and consulting practice (Prasad & Associates) on one domain. Plain static HTML, hosted on GitHub Pages from `main` at **joshuaprasad.com** (the `CNAME` file holds the domain; don't delete it). DNS lives at Squarespace Domains (bought through Google Workspace): four A records to GitHub Pages plus `www` CNAME to `joshuaprasad.github.io`. Leave the Google Workspace mail records alone. No build step, no framework, no dashboard.
 
 **Josh edits this site by giving notes to Claude, never by touching files.** A note like "add Lander's photo" or "drop the second testimonial" should be acted on directly: make the change, commit, push. Pages redeploys on push within a minute or two. Keep him out of the files.
 
@@ -50,5 +50,4 @@ The look is meant to feel *measured*: text-led, cool, restrained, and phone-firs
 ## Open items
 
 - **josh@joshuaprasad.com doesn't exist yet.** It needs the domain purchase plus Google Workspace. Until then the Consulting address on Contact bounces.
-- **Custom domain not attached.** Once Josh buys joshuaprasad.com: add a `CNAME` file containing `joshuaprasad.com`, set the DNS records at the registrar (four A records to GitHub Pages, plus `www` CNAME to `joshuaprasad.github.io`), then turn on "Enforce HTTPS" in the repo's Pages settings.
 - **Lander Wilkinson** has a photo (added 2026-09-25) but no research-interests sentence yet.
