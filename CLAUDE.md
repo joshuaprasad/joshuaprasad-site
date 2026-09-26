@@ -49,5 +49,4 @@ The look is meant to feel *measured*: text-led, cool, restrained, and phone-firs
 
 ## Open items
 
-- **josh@joshuaprasad.com doesn't exist yet.** It needs the domain purchase plus Google Workspace. Until then the Consulting address on Contact bounces.
 - **Lander Wilkinson** has a photo (added 2026-09-25) but no research-interests sentence yet.
