@@ -13,6 +13,7 @@ Josh Prasad's personal site: professor, lab, and consulting practice (Prasad & A
 | `lab.html` | Research & the Lab | Lab description, Google Scholar link, current members, alumni, Join |
 | `consulting.html` | Consulting | Prasad & Associates: services, selection work, evidence paragraph, testimonials |
 | `contact.html` | Contact | Two email addresses split by purpose, profile links |
+| `reveal.js` | all | Scroll fade-in for text below the fold |
 | `style.css` | all | The one stylesheet. Colors are tokens at the top; change a token, never a rule |
 | `images/` | Lab | Member headshots, `firstname.jpg`, roughly square, under ~100KB |
 
@@ -43,7 +44,7 @@ The look is meant to feel *measured*: text-led, cool, restrained, and phone-firs
 
 - Type: **Newsreader** (serif) for reading, **Public Sans** for navigation, labels, and buttons. Both come from Google Fonts.
 - Palette tokens in `style.css`: paper, ink blue, slate, rule, one muted teal accent for links. Dark mode follows the visitor's system setting.
-- **The one bold element is the anchored rating scale on Home.** Don't add a second showpiece. No hero photos, no card grids, no all-caps labels, no animations, no arrows on links.
+- **The one bold element is the anchored rating scale on Home.** Don't add a second showpiece. No hero photos, no card grids, no all-caps labels, no arrows on links. **The one motion is a gentle scroll reveal** (Josh asked for it on 2026-09-26): `reveal.js`, loaded on every page, fades in paragraphs, bullets, headings, and cards below the fold as they scroll into view. Anything on screen at load shows at once, and reduced-motion visitors get no animation. New pages need the same `<script src="reveal.js" defer>` line. Don't add any other motion.
 - Nothing visual from the old sites (the Lovable site at p-17-a.com, or the prasad-lab-site repo). Only their copy carried over.
 - Single column. Check any change at phone width (~400px): no sideways scroll.
 

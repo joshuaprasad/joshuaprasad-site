@@ -180,6 +180,13 @@ h3 { font-family: var(--sans); font-size: 1rem; font-weight: 600; margin: 0; }
 .site-foot nav { display: flex; gap: 1rem; }
 .site-foot a { color: var(--slate); }
 
+/* Scroll reveal (reveal.js adds these only to blocks below the fold) */
+.reveal { transition: opacity 0.7s ease, transform 0.7s ease; }
+.reveal-pending { opacity: 0; transform: translateY(8px); }
+@media (prefers-reduced-motion: reduce) {
+  .reveal, .reveal-pending { transition: none; opacity: 1; transform: none; }
+}
+
 .sr { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
 
 @media (max-width: 480px) {
