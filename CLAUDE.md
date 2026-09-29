@@ -48,6 +48,3 @@ The look is meant to feel *measured*: text-led, cool, restrained, and phone-firs
 - Nothing visual from the old sites (the Lovable site at p-17-a.com, or the prasad-lab-site repo). Only their copy carried over.
 - Single column. Check any change at phone width (~400px): no sideways scroll.
 
-## Open items
-
-- **Lander Wilkinson** has a photo (added 2026-09-25) but no research-interests sentence yet.
